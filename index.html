@@ -1,0 +1,109 @@
+<!doctype html>
+<html lang="ko">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#f6f4ef">
+  <meta name="description" content="의료행정 분야를 배우며 책임감과 배려를 바탕으로 성장하는 강수정의 포트폴리오입니다.">
+  <title>강수정 | Personal Portfolio</title>
+  <style>
+    :root{--paper:#f6f4ef;--ink:#172a3a;--muted:#65717a;--line:#d9ddd9;--accent:#6e8d82;--white:#fff}
+    *{box-sizing:border-box} html{scroll-behavior:smooth} body{margin:0;background:var(--paper);color:var(--ink);font-family:Pretendard,"Noto Sans KR",system-ui,-apple-system,sans-serif;line-height:1.7}
+    a{color:inherit;text-decoration:none}.wrap{width:min(1080px,calc(100% - 44px));margin:auto}
+    header{height:76px;display:flex;align-items:center;justify-content:space-between;border-bottom:1px solid var(--line)}
+    .brand{font-weight:800;letter-spacing:.08em;font-size:14px}.nav{display:flex;gap:26px;font-size:13px;color:var(--muted)}.nav a:hover{color:var(--accent)}
+    .hero{padding:104px 0 92px;display:grid;grid-template-columns:1.4fr .6fr;gap:50px;align-items:center}
+    .eyebrow{font-size:12px;letter-spacing:.18em;text-transform:uppercase;color:var(--accent);font-weight:700}
+    h1{font-size:clamp(42px,7vw,76px);line-height:1.15;letter-spacing:-.06em;margin:18px 0 24px;font-weight:750}
+    h1 span{color:var(--accent)}.lead{font-size:17px;color:#4f5c65;max-width:600px;word-break:keep-all}
+    .hero-note{border:1px solid var(--line);padding:28px;background:rgba(255,255,255,.48);border-radius:4px}
+    .hero-note strong{display:block;font-size:12px;letter-spacing:.12em;color:var(--accent);margin-bottom:12px}
+    .hero-note p{margin:0;font-size:15px;word-break:keep-all}
+    .actions{display:flex;gap:12px;margin-top:30px;flex-wrap:wrap}.btn{padding:11px 18px;border:1px solid var(--ink);font-size:13px;font-weight:650}.btn.primary{background:var(--ink);color:white}.btn:hover{transform:translateY(-2px)}
+    section{padding:76px 0;border-top:1px solid var(--line)}.section-head{display:flex;align-items:baseline;gap:18px;margin-bottom:34px}.section-head .num{font-size:12px;color:var(--accent);letter-spacing:.12em;font-weight:700}.section-head h2{font-size:28px;letter-spacing:-.04em;margin:0}
+    .about-grid{display:grid;grid-template-columns:1fr 1fr;gap:54px}.about-grid p{margin:0;color:#4f5c65;word-break:keep-all}.facts{display:grid;grid-template-columns:1fr 1fr;gap:18px}.fact{padding:16px 0;border-top:1px solid var(--line)}.fact small{display:block;color:var(--muted);font-size:11px;letter-spacing:.1em}.fact b{font-size:15px}
+    .cards{display:grid;grid-template-columns:repeat(3,1fr);gap:16px}.card{background:rgba(255,255,255,.55);border:1px solid var(--line);padding:24px;min-height:180px}.card .tag{font-size:11px;color:var(--accent);font-weight:700;letter-spacing:.1em}.card h3{font-size:18px;margin:12px 0 8px}.card p{font-size:13px;color:var(--muted);margin:0;word-break:keep-all}
+    .timeline{border-left:1px solid #b7c2bc;margin-left:8px;padding-left:28px;display:grid;gap:30px}.entry{position:relative}.entry:before{content:"";position:absolute;width:9px;height:9px;border-radius:50%;background:var(--accent);left:-33px;top:9px}.entry time{font-size:12px;color:var(--accent);font-weight:700}.entry h3{margin:4px 0;font-size:17px}.entry p{margin:0;color:var(--muted);font-size:14px}
+    .values{display:grid;grid-template-columns:repeat(4,1fr);gap:12px}.value{padding:20px 14px;border:1px solid var(--line);text-align:center;font-size:14px;font-weight:650;background:rgba(255,255,255,.35)}
+    .closing{padding:70px 0 86px;text-align:center}.closing h2{font-size:clamp(28px,4vw,42px);letter-spacing:-.05em;margin:10px 0}.closing p{color:var(--muted);margin:0}
+    footer{border-top:1px solid var(--line);padding:22px 0;color:var(--muted);font-size:11px;display:flex;justify-content:space-between;gap:12px}
+    @media(max-width:760px){.nav{gap:12px;font-size:11px}.hero{grid-template-columns:1fr;padding:70px 0}.hero-note{max-width:460px}.about-grid{grid-template-columns:1fr;gap:28px}.cards{grid-template-columns:1fr}.values{grid-template-columns:1fr 1fr}section{padding:58px 0}}
+    @media(max-width:430px){.wrap{width:min(100% - 32px,1080px)}.nav a:nth-child(2){display:none}.section-head h2{font-size:24px}footer{flex-direction:column}}
+  </style>
+</head>
+<body>
+  <div class="wrap">
+    <header>
+      <a class="brand" href="#home">SUJEONG KANG.</a>
+      <nav class="nav" aria-label="주요 메뉴">
+        <a href="#about">소개</a><a href="#strengths">강점</a><a href="#experience">경험</a><a href="#learning">학습</a>
+      </nav>
+    </header>
+    <main>
+      <section class="hero" id="home" style="border:0">
+        <div>
+          <div class="eyebrow">Personal Portfolio · 2026</div>
+          <h1>배려와 책임감으로<br><span>신뢰를 만드는</span> 사람.</h1>
+          <p class="lead">안녕하세요, 강수정입니다. 의료행정 분야를 배우며 정확한 업무 처리와 따뜻한 소통의 중요성을 익히고 있습니다. 작은 일도 꼼꼼하게 살피고, 함께하는 사람을 배려하는 태도로 꾸준히 성장하겠습니다.</p>
+          <div class="actions"><a class="btn primary" href="#about">포트폴리오 보기</a><a class="btn" href="#experience">경험 살펴보기</a></div>
+        </div>
+        <aside class="hero-note">
+          <strong>MY APPROACH</strong>
+          <p>상대의 입장에서 한 번 더 생각하고, 맡은 일은 끝까지 책임지는 태도. 제가 일하고 배우는 방식입니다.</p>
+        </aside>
+      </section>
+
+      <section id="about">
+        <div class="section-head"><span class="num">01 / ABOUT</span><h2>저를 소개합니다</h2></div>
+        <div class="about-grid">
+          <p>사람들과 원만하게 어울리고 상대방의 이야기를 경청하는 편입니다. 다양한 상황에서 필요한 부분을 먼저 살피고, 맡은 역할을 성실하게 수행하려고 노력합니다. 의료기관의 행정 업무에서도 환자와 보호자에게 정확하고 친절한 안내를 제공하는 사람이 되고 싶습니다.</p>
+          <div class="facts">
+            <div class="fact"><small>EDUCATION</small><b>의무행정과 재학</b></div>
+            <div class="fact"><small>INTEREST</small><b>병원 원무·의료행정</b></div>
+            <div class="fact"><small>STRENGTH</small><b>배려와 경청</b></div>
+            <div class="fact"><small>WORK STYLE</small><b>꼼꼼함과 책임감</b></div>
+          </div>
+        </div>
+      </section>
+
+      <section id="strengths">
+        <div class="section-head"><span class="num">02 / STRENGTHS</span><h2>제가 가진 강점</h2></div>
+        <div class="cards">
+          <article class="card"><span class="tag">01 · COMMUNICATION</span><h3>경청하는 소통</h3><p>상대방의 말을 먼저 듣고 상황과 요구를 정확하게 파악한 뒤 차분하고 친절하게 소통합니다.</p></article>
+          <article class="card"><span class="tag">02 · RESPONSIBILITY</span><h3>맡은 일에 대한 책임감</h3><p>주어진 역할을 끝까지 수행하고, 해야 할 일을 미루지 않도록 우선순위를 정해 움직입니다.</p></article>
+          <article class="card"><span class="tag">03 · ORGANIZATION</span><h3>꼼꼼한 업무 습관</h3><p>주변을 정돈하고 필요한 사항을 확인하며 실수를 줄이기 위해 한 번 더 점검합니다.</p></article>
+        </div>
+      </section>
+
+      <section id="experience">
+        <div class="section-head"><span class="num">03 / EXPERIENCE</span><h2>경험과 배움</h2></div>
+        <div class="timeline">
+          <article class="entry"><time>2026 · 현재</time><h3>샐러드 전문점 근무</h3><p>고객 응대, 주방 보조, 배달 주문 확인 등 매장 운영 업무를 경험하며 친절한 서비스와 신속한 협업의 중요성을 배웠습니다.</p></article>
+          <article class="entry"><time>2026 · 대학 생활</time><h3>의무행정과 전공 학습 및 학생회 활동</h3><p>전공 수업과 학과 활동에 참여하며 의료행정에 대한 이해를 넓히고, 구성원들과 협력하며 맡은 역할을 수행하고 있습니다.</p></article>
+        </div>
+      </section>
+
+      <section id="learning">
+        <div class="section-head"><span class="num">04 / LEARNING</span><h2>교육 및 학습</h2></div>
+        <div class="cards">
+          <article class="card"><span class="tag">COURSE CERTIFICATE · 2026.09.14</span><h3>Global MOOC on the Ethics of AI</h3><p>UNESCO · LG AI Research 주관, Coursera 제공 온라인 교육 과정 이수</p></article>
+          <article class="card"><span class="tag">FIELD OF STUDY</span><h3>의료행정</h3><p>병원 원무 및 의료기관 행정 업무에 필요한 기초 지식과 실무 역량을 학습하고 있습니다.</p></article>
+          <article class="card"><span class="tag">CONTINUOUS GROWTH</span><h3>꾸준한 자기계발</h3><p>새로운 지식을 열린 태도로 배우고, 배운 내용을 실제 업무에 연결할 수 있도록 노력합니다.</p></article>
+        </div>
+      </section>
+
+      <section>
+        <div class="section-head"><span class="num">05 / VALUES</span><h2>중요하게 생각하는 가치</h2></div>
+        <div class="values"><div class="value">배려</div><div class="value">신뢰</div><div class="value">성실</div><div class="value">협력</div></div>
+      </section>
+
+      <div class="closing">
+        <div class="eyebrow">THANK YOU FOR VISITING</div>
+        <h2>작은 신뢰를 쌓아<br>더 나은 내일을 만들겠습니다.</h2>
+        <p>꾸준히 배우고 성장하는 강수정이 되겠습니다.</p>
+      </div>
+    </main>
+    <footer><span>© 2026 SUJEONG KANG. All rights reserved.</span><span>Personal Portfolio · Medical Administration</span></footer>
+  </div>
+</body>
+</html>
